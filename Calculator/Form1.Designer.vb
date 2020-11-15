@@ -54,7 +54,7 @@ Partial Class Calculadores
         Me.displayLabel.Name = "displayLabel"
         Me.displayLabel.Size = New System.Drawing.Size(223, 47)
         Me.displayLabel.TabIndex = 0
-        Me.displayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.displayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Button1
         '
