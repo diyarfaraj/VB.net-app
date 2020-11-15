@@ -55,7 +55,80 @@
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
         Me.displayLabel.Text = ""
+        Me.firstNumber.Text = ""
+        Me.operator_Label1.Text = ""
 
+    End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        Me.operator_Label1.Text = "+"
+
+        If (Me.displayLabel.Text = "") Then
+        Else
+            Me.firstNumber.Text = Me.displayLabel.Text
+            Me.displayLabel.Text = ""
+        End If
+
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Me.operator_Label1.Text = "-"
+        If (Me.displayLabel.Text = "") Then
+        Else
+            Me.firstNumber.Text = Me.displayLabel.Text
+            Me.displayLabel.Text = ""
+        End If
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        Me.operator_Label1.Text = "*"
+        If (Me.displayLabel.Text = "") Then
+        Else
+            Me.firstNumber.Text = Me.displayLabel.Text
+            Me.displayLabel.Text = ""
+        End If
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        Me.operator_Label1.Text = "%"
+        If (Me.displayLabel.Text = "") Then
+        Else
+            Me.firstNumber.Text = Me.displayLabel.Text
+            Me.displayLabel.Text = ""
+        End If
+    End Sub
+
+    Private Sub firstNumber_Click(sender As Object, e As EventArgs) Handles firstNumber.Click
+
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim firstNum As Double
+        Dim secondNum As Double
+        Dim result As Double
+
+        Double.TryParse(Me.firstNumber.Text, firstNum)
+        Double.TryParse(Me.displayLabel.Text, secondNum)
+
+        If Me.operator_Label1.Text = "+" Then
+            Me.displayLabel.Text = firstNum + secondNum
+        ElseIf Me.operator_Label1.Text = "-" Then
+            Me.displayLabel.Text = firstNum - secondNum
+
+        ElseIf Me.operator_Label1.Text = "%" Then
+            Me.displayLabel.Text = firstNum / secondNum
+
+        ElseIf Me.operator_Label1.Text = "*" Then
+            Me.displayLabel.Text = firstNum * secondNum
+
+        End If
+
+        Me.firstNumber.Text = ""
+        Me.operator_Label1.Text = ""
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Me.displayLabel.Text = Me.displayLabel.Text + "."
 
     End Sub
 End Class
