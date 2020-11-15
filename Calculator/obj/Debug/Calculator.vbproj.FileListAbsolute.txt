@@ -1,0 +1,11 @@
+C:\Users\Diyar\source\repos\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Diyar\source\repos\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Diyar\source\repos\Calculator\Calculator\bin\Debug\Calculator.xml
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.vbprojAssemblyReference.cache
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.Calculadores.resources
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.xml
+C:\Users\Diyar\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
